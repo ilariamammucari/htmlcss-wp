@@ -84,16 +84,49 @@ header .header-bottom {
 /* parte centrale */
 main {
 	margin: 10px 0;
+	font-family: 'Roboto', sans-serif;
 }
 
-.themes {
+/* themes */
+main .themes {
 	width: 20%;
-	/* da cancellare */
-	height: 250px;
-	background-color: lightblue;
-	/* /da cancellare */
+	padding: 10px;
+	border-radius: 5px;
+	background-color: white;
 }
 
+main .themes .icon-rss {
+	font-size: 30px;
+	color: orange;
+}
+
+main .themes .titol-aside-left {
+	width: 70%;
+	padding: 0 10px;
+	font-size: 20px;
+	color: grey;
+	margin-bottom: 5px;
+}
+
+main .themes .ul-aside-left {
+	list-style: none;
+}
+
+main .themes .ul-aside-left a {
+	text-decoration: none;
+	color: green;
+}
+
+main .themes .ul-aside-left li {
+	padding: 8px 0;
+}
+
+main .themes .ul-aside-left li:hover {
+	text-decoration: underline;
+	color: green;
+}
+
+/* articles */
 .articles {
 	width: 56%;
 	margin: 0 2%;
@@ -103,6 +136,7 @@ main {
 	/* /da cancellare */
 }
 
+/* widgets */
 .widgets {
 	width: 20%;
 }
