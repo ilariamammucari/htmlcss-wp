@@ -140,11 +140,11 @@ main .articles h2 {
 	text-shadow: 1px 1px grey;
 	font-size: 30px;
 	text-transform: uppercase;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 main .articles p {
-	line-height: 10px;
+	line-height: 30px;
 }
 
 
@@ -172,8 +172,46 @@ main .articles p {
 
 /* fondo pagina */
 footer {
-	/* da cancellare */
-	height: 250px;
-	background-color: pink;
-	/* /da cancellare */
+	text-align: center;
+	padding: 5px;
+	background-color: white;
+}
+
+footer span {
+	color: grey;
+}
+
+footer .socials .social-list {
+	list-style: none;
+}
+
+footer .socials .social-list li {
+	display: inline-block;
+	font-size: 50px;
+	padding: 40px;
+	margin: 0 70px;
+}
+
+footer .socials .social-list .fa-facebook {
+	color: blue;
+}
+
+footer .socials .social-list .fa-instagram {
+	color: orange;
+}
+
+footer .socials .social-list .fa-github {
+	color: purple;
+}
+
+footer .socials .social-list .fa-facebook:hover {
+	color: black;
+}
+
+footer .socials .social-list .fa-instagram:hover {
+	color: black;
+}
+
+footer .socials .social-list .fa-github:hover {
+	color: black;
 }
