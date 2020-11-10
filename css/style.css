@@ -127,27 +127,46 @@ main .themes .ul-aside-left li:hover {
 }
 
 /* articles */
-.articles {
+main .articles {
 	width: 56%;
 	margin: 0 2%;
-	/* da cancellare */
-	height: 400px;
-	background-color: violet;
-	/* /da cancellare */
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
 }
+
+main .articles h2 {
+	color: grey;
+	text-shadow: 1px 1px grey;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+main .articles p {
+	line-height: 10px;
+}
+
 
 /* widgets */
 .widgets {
 	width: 20%;
 }
 
-.widget {
+.widgets .widget {
 	margin-bottom: 20px;
-	/* da cancellare */
-	height: 230px;
-	background-color: blue;
-	/* /da cancellare */
+	background-color: white;
+	padding: 20px;
+}
 
+.widgets .widget h2 {
+	font-size: 25px;
+	color: grey;
+	margin-bottom: 30px;
+}
+
+.widgets .widget p {
+	line-height: 30px;
 }
 
 
