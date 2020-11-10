@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1000px;
+	margin: 20px auto;
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.float-left {
+	float: left;
+}
+
+/* intestazione */
+header {
+	/* da cancellare */
+	height: 400px;
+	background-color: green;
+	/* /da cancellare */
+}
+
+/* parte centrale */
+main {
+	margin: 10px 0;
+}
+
+.themes {
+	width: 20%;
+	/* da cancellare */
+	height: 250px;
+	background-color: lightblue;
+	/* /da cancellare */
+}
+
+.articles {
+	width: 56%;
+	margin: 0 2%;
+	/* da cancellare */
+	height: 400px;
+	background-color: violet;
+	/* /da cancellare */
+}
+
+.widgets {
+	width: 20%;
+}
+
+.widget {
+	margin-bottom: 20px;
+	/* da cancellare */
+	height: 230px;
+	background-color: blue;
+	/* /da cancellare */
+
+}
+
+
+/* fondo pagina */
+footer {
+	/* da cancellare */
+	height: 250px;
+	background-color: pink;
+	/* /da cancellare */
+}
