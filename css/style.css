@@ -96,16 +96,16 @@ main .themes {
 }
 
 main .themes .icon-rss {
-	font-size: 30px;
+	width: 30%;
+	font-size: 40px;
 	color: orange;
 }
 
 main .themes .titol-aside-left {
 	width: 70%;
-	padding: 0 10px;
 	font-size: 20px;
 	color: grey;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 main .themes .ul-aside-left {
